@@ -6,7 +6,7 @@ import Link from 'next/link';
 const HeroSection = () => {
     return (
         <>
-            <section className="px-3 mt-3 font-medium">
+            <section className="px-3 pt-3 font-medium">
                 <div className="w-full h-[500px] relative">
                     <Image src="/hero.jpg" fill alt="heroimage" className="object-cover rounded-2xl" />
                     <div className='absolute right-16 z-50 bottom-19'>

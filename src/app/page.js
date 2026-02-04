@@ -1,14 +1,10 @@
-import Image from "next/image";
+import HeroSection from "./components/HeroSection";
 
 export default function Home() {
   return (
     <>
-    
-      <div className="px-3 mt-3">
-        <div className="w-full h-[500px] relative">
-          <Image src="/hero.jpg" fill alt="heroimage" className="object-cover rounded-2xl" />
-        </div>
-      </div>
+    <HeroSection/>
+      
     </>
   );
 }

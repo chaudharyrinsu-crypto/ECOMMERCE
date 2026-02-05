@@ -18,7 +18,7 @@ const Header = () => {
             <div className="relative">
                 {/* <Collection /> */}
             </div>
-            <nav className='relative max-w-[1320px] mx-auto  '>
+            <nav className='relative max-w-328 mx-auto  '>
                 <div className='w-full mx-auto absolute top-5 right-0 z-50  px-5 py-3 rounded-xl  bg-white flex justify-between items-center shadow '>
                     {/* <Link href='/'>allbirds</Link> */}
                    <Allbirds/>

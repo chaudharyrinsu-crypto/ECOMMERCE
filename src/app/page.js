@@ -10,6 +10,9 @@ export default function Home() {
     <HeroSection/>
     <TopCategory/>
     <NewArrivalHome/>
+    <section>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sed labore et ad vero eum adipisci vitae explicabo, soluta, pariatur quia architecto odio consequuntur quam. Neque illum et quisquam at!
+    </section>
     </section>
     </>
   );

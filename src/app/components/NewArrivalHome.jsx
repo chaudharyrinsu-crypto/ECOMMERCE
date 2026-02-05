@@ -1,49 +1,59 @@
-import React from 'react'
+'use client'
+
+import React, { useEffect, useState } from 'react'
 import { newArrivalShoe } from '../data/Alldata.'
-import { useEffect, useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation } from 'swiper/modules'
-
 import 'swiper/css'
 import 'swiper/css/navigation'
 
 const NewArrivalHome = () => {
-    const [direction, setDirection] = useState('horizontal')
+    const [mounted, setMounted] = useState(false)
+    //   const [direction, setDirection] = useState('horizontal')
 
-    // Detect screen resize
     useEffect(() => {
-        const handleResize = () => {
-            setDirection(window.innerWidth <= 760 ? 'vertical' : 'horizontal')
-        }
+        setMounted(true)
 
-        handleResize() // run on mount
-        window.addEventListener('resize', handleResize)
+        // const handleResize = () => {
+        //   setDirection(window.innerWidth <= 760 ? 'vertical' : 'horizontal')
+        // }
 
-        return () => window.removeEventListener('resize', handleResize)
+        // handleResize()
+        // window.addEventListener('resize', handleResize)
+
+        // return () => window.removeEventListener('resize', handleResize)
     }, [])
+
+    // ⛔ Prevent SSR hydration mismatch
+    if (!mounted) return null
     return (
         <>
             <div className="w-full h-screen py-22">
-                <h3 className='uppercase underline font-medium tracking-wider text-center'>new arrivals</h3>
+                <h3 className="uppercase underline font-medium tracking-wider text-center text-[#212121]">
+                    new arrivals
+                </h3>
+
                 <Swiper
                     modules={[Navigation]}
-                    slidesPerView={2}
-                    direction={direction}
+                    // slidesPerView={2}
+                    // direction={direction}
+                    breakpoints={{
+                        320: { slidesPerView: 1.5 },
+                        640: { slidesPerView: 2.5 },
+                        //   1024: { slidesPerView: 3 },
+                    }}
                     navigation
-                    className="w-full h-full"
+                    className="w-full lg:h-full h-1/2"
                 >
                     {newArrivalShoe.map((img, index) => (
                         <SwiperSlide key={index}>
-                            <div className="w-full h-full overflow-hidden">
+                            <div className="w-full h-full ">
                                 <img
                                     src={img}
                                     alt="new arrivals shoes"
-                                    className="w-full h-full object-cover"
+                                    className="w-full h-full md:object-cover object-contain"
                                 />
                             </div>
-                            {/* <div className="flex items-center justify-center h-full ">
-                               <img src={img} className='' alt='new arrivals shoes' />
-                            </div> */}
                         </SwiperSlide>
                     ))}
                 </Swiper>

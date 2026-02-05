@@ -51,3 +51,15 @@ export const newArrivalShoe = [
 'https://www.allbirds.com/cdn/shop/files/A12640_26Q1_Dasher-NZ-Relay-Natural-Black-Blizzard_PDP_LEFT.png?v=1768950664&width=1600',
 
 'https://www.allbirds.com/cdn/shop/files/A12697_26Q1_Cruiser-Slip-On-Canvas-Blizzard-Blizzard_PDP_LEFT.png?v=1768946765&width=1600']
+// Tree Runner NZ
+export const treeRunnerNZ=[
+    {image:'https://www.allbirds.com/cdn/shop/files/26Q1_DasherNZ_Site_3xPromo-03_Desktop-Mobile_9x16_1.jpg?v=1769814114&width=1024',
+    title:'The Perfect Valentine'
+    },
+    {image:'https://www.allbirds.com/cdn/shop/files/26Q1_Varsity_Site_3xPromo-02_Desktop-Mobile_9x16_bbd72da9-ef1d-414d-aa5c-6eb3cb033f9c.jpg?v=1768517019&width=1024',
+    title:'Varsity Collection'
+    },
+    {image:'https://www.allbirds.com/cdn/shop/files/26Q1_DasherNZ_PDP_Womens_HowToStyle_DesktopMobile_2x3_01-2.jpg?v=1769467172&width=1024',
+    title:'Dasher NZ Collection'
+    }
+]

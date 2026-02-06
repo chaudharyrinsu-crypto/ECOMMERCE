@@ -48,18 +48,72 @@ export const newArrivalShoe = [
 
     'https://www.allbirds.com/cdn/shop/files/A12400_26Q1_Cruiser-Terralux-Anthracite-Dark-Gum-Sole_PDP_LEFT.png?v=1768947640&width=1600',
 
-'https://www.allbirds.com/cdn/shop/files/A12640_26Q1_Dasher-NZ-Relay-Natural-Black-Blizzard_PDP_LEFT.png?v=1768950664&width=1600',
+    'https://www.allbirds.com/cdn/shop/files/A12640_26Q1_Dasher-NZ-Relay-Natural-Black-Blizzard_PDP_LEFT.png?v=1768950664&width=1600',
 
-'https://www.allbirds.com/cdn/shop/files/A12697_26Q1_Cruiser-Slip-On-Canvas-Blizzard-Blizzard_PDP_LEFT.png?v=1768946765&width=1600']
+    'https://www.allbirds.com/cdn/shop/files/A12697_26Q1_Cruiser-Slip-On-Canvas-Blizzard-Blizzard_PDP_LEFT.png?v=1768946765&width=1600']
 // Tree Runner NZ
-export const treeRunnerNZ=[
-    {image:'https://www.allbirds.com/cdn/shop/files/26Q1_DasherNZ_Site_3xPromo-03_Desktop-Mobile_9x16_1.jpg?v=1769814114&width=1024',
-    title:'The Perfect Valentine'
+export const treeRunnerNZ = [
+    {
+        image: 'https://www.allbirds.com/cdn/shop/files/26Q1_DasherNZ_Site_3xPromo-03_Desktop-Mobile_9x16_1.jpg?v=1769814114&width=1024',
+        title: 'The Perfect Valentine'
     },
-    {image:'https://www.allbirds.com/cdn/shop/files/26Q1_Varsity_Site_3xPromo-02_Desktop-Mobile_9x16_bbd72da9-ef1d-414d-aa5c-6eb3cb033f9c.jpg?v=1768517019&width=1024',
-    title:'Varsity Collection'
+    {
+        image: 'https://www.allbirds.com/cdn/shop/files/26Q1_Varsity_Site_3xPromo-02_Desktop-Mobile_9x16_bbd72da9-ef1d-414d-aa5c-6eb3cb033f9c.jpg?v=1768517019&width=1024',
+        title: 'Varsity Collection'
     },
-    {image:'https://www.allbirds.com/cdn/shop/files/26Q1_DasherNZ_PDP_Womens_HowToStyle_DesktopMobile_2x3_01-2.jpg?v=1769467172&width=1024',
-    title:'Dasher NZ Collection'
+    {
+        image: 'https://www.allbirds.com/cdn/shop/files/26Q1_DasherNZ_PDP_Womens_HowToStyle_DesktopMobile_2x3_01-2.jpg?v=1769467172&width=1024',
+        title: 'Dasher NZ Collection'
+    }
+]
+export const newArrivashoeItem = [
+    {
+        id: 1,
+        image: "https://www.allbirds.com/cdn/shop/files/A12663_26Q1_Breezer-Point-Natural-Black-Natural-Black-Sole_PDP_LEFT.png?v=1768946493&width=1024",
+        title: "women's breezer point",
+        color: "Natural Black",
+        price: "$125"
+    },
+    {
+        id: 2,
+        image: "https://www.allbirds.com/cdn/shop/files/A12600_26Q1_Dasher-NZ-Multi-Parchment_PDP_LEFT_62fe7ef7-361e-44d0-8d47-37d4de293345.png?v=1768948957&width=1024",
+        title: "women's  dasher nz",
+        color: "Mid-yellow/Seagrass",
+        price: "$140"
+    },
+    {
+        id: 3,
+        image: "https://www.allbirds.com/cdn/shop/files/A12270_26Q1_Mens-Varsity-Parchment-Blizzard-Sole_PDP_LEFT.png?v=1765307399&width=1024",
+        title: "men's varsity",
+        color: "Parchment",
+        price: "$120"
+    },
+    {
+        id: 4,
+        image: "https://www.allbirds.com/cdn/shop/files/A12581_26Q2_Womens-Varsity-Multi-Natural-White-Sole_PDP_LEFT_6e5223c3-cdbc-4def-8e3d-42413b31f6ad.png?v=1766770960&width=1024",
+        title: "women's varsity",
+        color: "Warm White/Dusty pink",
+        price: "$120"
+    },
+    {
+        id: 5,
+        image: "https://www.allbirds.com/cdn/shop/files/A12317_26Q2_Varsity-Terralux-Toasted-Coconut-Toasted-Coconut-Sole_PDP_LEFT.png?v=1769456542&width=1024",
+        title: "men's varsity Terralux™",
+        color: "Toasted Coconut",
+        price: "$145"
+    },
+    {
+        id: 6,
+        image: "https://www.allbirds.com/cdn/shop/files/A12296_26Q1_Tree-Breezer-Spice-Spice_PDP_LEFT.png?v=1765243970&width=1024",
+        title: "women's tree breezer",
+        color: "Spice",
+        price: "$105"
+    },
+    {
+        id: 7,
+        image: "https://www.allbirds.com/cdn/shop/files/A12535_26Q1_Runner-NZ-Terralux-Light-Grey-Parchment_PDP_LEFT.png?v=1768955085&width=1024",
+        title: "Men's Runner NZ Terralux™",
+        color: "Light grey",
+        price: "$135"
     }
 ]

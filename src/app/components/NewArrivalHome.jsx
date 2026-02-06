@@ -28,7 +28,7 @@ const NewArrivalHome = () => {
     if (!mounted) return null
     return (
         <>
-            <div className="w-full h-screen py-22">
+            <div className="w-full h-screen pt-20">
                 <h3 className="uppercase underline font-medium tracking-wider text-center text-[#212121]">
                     new arrivals
                 </h3>
@@ -39,11 +39,11 @@ const NewArrivalHome = () => {
                     // direction={direction}
                     breakpoints={{
                         320: { slidesPerView: 1.5 },
-                        640: { slidesPerView: 2.5 },
+                        768: { slidesPerView: 2.5 },
                         //   1024: { slidesPerView: 3 },
                     }}
                     navigation
-                    className="w-full lg:h-full h-1/2"
+                    className="w-full lg:h-full h-1/2 "
                 >
                     {newArrivalShoe.map((img, index) => (
                         <SwiperSlide key={index}>

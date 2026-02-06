@@ -1,4 +1,4 @@
 1. in TopCategory transition is not working while hovering the div to appear the Links
 
 2.border radius transition is not working in same page
-3.
+3.padding in Newarrival is not equall (top,bottom)
